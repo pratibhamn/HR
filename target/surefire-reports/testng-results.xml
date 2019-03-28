@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matchingOrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[List box is sorted:Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23944" started-at="2019-03-27T16:01:29Z" finished-at="2019-03-27T16:01:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23944" started-at="2019-03-27T16:01:29Z" finished-at="2019-03-27T16:01:53Z">
+      <class name="qsp.scripts.TestScipts">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:qsp.scripts.TestScipts@3a03464]" name="preCondition" is-config="true" duration-ms="6937" started-at="2019-03-27T21:31:29Z" finished-at="2019-03-27T21:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testSortList()[pri:0, instance:qsp.scripts.TestScipts@3a03464]" name="testSortList" duration-ms="16642" started-at="2019-03-27T21:31:36Z" finished-at="2019-03-27T21:31:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matchingOrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[List box is sorted:Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSortList -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:qsp.scripts.TestScipts@3a03464]" name="postCondition" is-config="true" duration-ms="333" started-at="2019-03-27T21:31:52Z" finished-at="2019-03-27T21:31:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- qsp.scripts.TestScipts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

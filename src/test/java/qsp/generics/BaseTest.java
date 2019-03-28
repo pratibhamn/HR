@@ -1,0 +1,25 @@
+package qsp.generics;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+public abstract class BaseTest implements AutoConst{
+	public static WebDriver driver;
+	@BeforeMethod
+	public void preCondition(){
+		
+		System.setProperty(CHROME_KEY, CHROME_VALUE);
+		driver=new ChromeDriver();
+		/*System.setProperty(GECKO_KEY, GECKO_VALUE);
+		driver=new FirefoxDriver();*/
+driver.get("https://opensource-demo.orangehrmlive.com/");
+	}
+
+	@AfterMethod
+	public void postCondition(){
+		driver.close();
+
+	}
+}
