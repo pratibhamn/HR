@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.By;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import qsp.generics.BaseTest;
@@ -43,6 +44,7 @@ public class TestScipts extends BaseTest {
 		pi.clickAddEmpList();
 		Thread.sleep(4000);
 		genericUtils.sortListBox(driver.findElement(By.xpath("//select[@id='empsearch_job_title']")));
+		Reporter.log("Hello",true);
 	}
 
 }
